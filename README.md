@@ -41,6 +41,8 @@ Server PID sini client a verebilmek için bir shell penceresi daha açın ve bur
    ```bash
    ./client [server PID] "mesaj"
 
+Ardından server a mesaj gelecektir. (Process i durdurmak için Ctrl+C tuş kombinasyonunu kullanarak process i kill edebilirsiniz.)
+
 Bonus bölümünde ise; Unicode karakterlerini mesajınızda kullanabilirsiniz ve bir doğrulama mesajı alırsınız.
 
 ## Fonksiyonlar
