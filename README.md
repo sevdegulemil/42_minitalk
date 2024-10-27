@@ -14,6 +14,7 @@
 - İki ayrı process (client ve server) arasında metin gönderimi.
 - UNIX sinyallerinin (`SIGUSR1` ve `SIGUSR2`) kullanımı.
 - Gönderilen mesajın başarıyla alındığını doğrulama mekanizması.
+- signal() ve signal_handler() fonksiyonları
 
 ## Kurulum
 
@@ -32,6 +33,10 @@ Projenin çalışması için önce server işlemini başlatmalısınız. Ardınd
 1. server ı başlatın
    ```bash
    ./server
+(Bir karşılama mesajı ve server PID si gelecektir.)
+
+Server PID sini client a verebilmek için bir shell penceresi daha açın ve burada cilent ı başlatın:
+
 2. client ı başlatın ve bir mesaj yazın
    ```bash
    ./client [server PID] "mesaj"
